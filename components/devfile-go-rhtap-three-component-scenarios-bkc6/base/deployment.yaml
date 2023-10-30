@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-go-rhtap-three-component-scenarios-bkc6
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-hihe-tenant/mc-three-scenarios/devfile-go-rhtap-three-component-scenarios-bkc6@sha256:e4a37a80f89f6b2a7ac8defdd934ea9a4154440b4e391a6f4abc9f74d369c506
         name: my-go
         ports:
         - containerPort: 8081
